@@ -11,11 +11,11 @@
 ::: {.column .information width="68%"}
 
 ::: {.title}
-Quarto template
+Software paper
 :::
 
 ::: {.subtitle}
-HTML presentation w/ RevealJS framework
+Promoting the tool you developed to access your data
 :::
 
 ::: {.date}

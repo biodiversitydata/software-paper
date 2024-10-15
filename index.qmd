@@ -3,7 +3,7 @@ from: markdown+emoji
 format:
   revealjs:
     logo: images/logo-affiliation.png
-    footer: "{{< fa brands github >}} &nbsp;<https://github.com/biodiversitydata/quarto-template>"
+    footer: "{{< fa brands github >}} &nbsp;<https://github.com/biodiversitydata/software-paper>"
     smaller: true
     auto-stretch: false
     chalkboard: true
@@ -21,14 +21,15 @@ engine: knitr
 
 <!-- Insert section 'Table of contents' -->
 
+<!--
 ```{r}
 #| child: "sections/table-of-contents.qmd"
 ```
-
+-->
 
 <!-- Insert section 'Quarto basics' -->
 
 ```{r}
-#| child: "sections/quarto-basics.qmd"
+#| child: "sections/main.qmd"
 ```
 
