@@ -18,16 +18,7 @@ engine: knitr
 #| child: "sections/title-slide.qmd"
 ```
 
-
-<!-- Insert section 'Table of contents' -->
-
-<!--
-```{r}
-#| child: "sections/table-of-contents.qmd"
-```
--->
-
-<!-- Insert section 'Quarto basics' -->
+<!-- Insert section 'Main slides' -->
 
 ```{r}
 #| child: "sections/main.qmd"

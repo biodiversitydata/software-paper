@@ -1,3 +1,223 @@
-# Introduction
+## Acknowledgments
 
-Coming soon...
+This presentation is strongly inspired by the chapter [**_Software papers_**](https://book.the-turing-way.org/communication/dif-articles/software.html) of the online book [**The Turing Way**](https://book.the-turing-way.org/).
+
+<br/>
+
+![](images/logo-turing-way.png){width=20% fig-align='center'}
+
+<br/>
+
+> The Turing Way Community (2021) _The Turing Way: A handbook for reproducible, ethical and collaborative research_. Zenodo. <https://doi.org/10.5281/zenodo.3233853>.
+
+
+
+## What is a software paper?
+
+:::: {.columns}
+
+::: {.column width=50%}
+- Share a new piece of software with the research community
+- Close to traditional method papers
+- Shorter than traditional articles (between 2 and 10 pages)
+- Focus on describing the software and its use
+:::
+
+::: {.column width=5%}
+:::
+
+::: {.column width=45%}
+:::
+::::
+
+## What is a software paper?
+
+:::: {.columns}
+
+::: {.column width=50%}
+- Share a new piece of software with the research community
+- Close to traditional method papers
+- Shorter than traditional articles (between 2 and 10 pages)
+- Focus on describing the software and its use
+
+<br/>
+
+**_But wait! What does this have to do with the data?_**
+:::
+
+::: {.column width=5%}
+:::
+
+::: {.column width=45%}
+:::
+::::
+
+
+## What is a software paper?
+
+:::: {.columns}
+
+::: {.column width=50%}
+- Share a new piece of software with the research community
+- Close to traditional method papers
+- Shorter than traditional articles (between 2 and 10 pages)
+- Focus on describing the software and its use
+
+<br/>
+
+**_But wait! What does this have to do with the data?_**
+:::
+
+::: {.column width=5%}
+:::
+
+::: {.column width=45%}
+![](images/pipeline-1.png)
+
+<br/>
+
+{{< fa circle-right >}} &nbsp;Software paper about **your pipeline**
+:::
+
+::::
+
+
+## What is a software paper?
+
+:::: {.columns}
+
+::: {.column width=50%}
+- Share a new piece of software with the research community
+- Close to traditional method papers
+- Shorter than traditional articles (between 2 and 10 pages)
+- Focus on describing the software and its use
+
+<br/>
+
+**_But wait! What does this have to do with the data?_**
+:::
+
+::: {.column width=5%}
+:::
+
+::: {.column width=45%}
+![](images/pipeline-2.png)
+
+<br/>
+
+{{< fa circle-right >}} &nbsp;Software paper about **a tool to access data**
+:::
+
+::::
+
+
+## What is a software paper?
+
+:::: {.columns}
+
+::: {.column width=50%}
+- Share a new piece of software with the research community
+- Close to traditional method papers
+- Shorter than traditional articles (between 2 and 10 pages)
+- Focus on describing the software and its use
+
+<br/>
+
+**_But wait! What does this have to do with the data?_**
+:::
+
+::: {.column width=5%}
+:::
+
+::: {.column width=45%}
+![](images/pipeline-3.png)
+
+<br/>
+
+{{< fa circle-right >}} &nbsp;Software paper about **a tool to add new data**
+:::
+
+::::
+
+## Software papers - Examples
+
+:::: {.columns}
+
+::: {.column width=50%}
+[![](images/mee-screenshot-1.png)](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.13910)
+:::
+
+::: {.column width=50%}
+[![](images/mee-screenshot-6.png)](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.13868)
+:::
+
+::::
+
+:::: {.columns}
+
+::: {.column width=50%}
+[![](images/mee-screenshot-3.png)](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.14213)
+:::
+
+::: {.column width=50%}
+[![](images/mee-screenshot-4.png)](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.13779)
+:::
+
+::::
+
+
+## Software paper - Why?
+
+- Advertise your code to an interested audience
+- Increase the visibility of your code and community
+- Improve your software through peer-review
+
+
+
+## In which journals?
+
+- Methods in Ecology and Evolution &nbsp;&nbsp;[{{< fa up-right-from-square size=xs >}}](https://besjournals.onlinelibrary.wiley.com/journal/2041210x)
+- Journal of Open Source Software (JOSS) &nbsp;&nbsp;[{{< fa up-right-from-square size=xs >}}](https://joss.theoj.org/)
+- Journal of Open Research Software (JORS) &nbsp;&nbsp;[{{< fa up-right-from-square size=xs >}}](https://openresearchsoftware.metajnl.com/)
+- BMC Bioinformatics &nbsp;&nbsp;[{{< fa up-right-from-square size=xs >}}](https://bmcbioinformatics.biomedcentral.com/)
+- PeerJ &nbsp;&nbsp;[{{< fa up-right-from-square size=xs >}}](https://peerj.com/about/publications/#PeerJ)
+- PLOS Computational Biology: Software &nbsp;&nbsp;[{{< fa up-right-from-square size=xs >}}](https://collections.plos.org/collection/software/)
+- PLOS ONE &nbsp;&nbsp;[{{< fa up-right-from-square size=xs >}}](https://journals.plos.org/plosone/)
+- ...
+
+
+## Zoom on JOSS
+
+Feedback on publishing in **Journal of Open Source Software** (JOSS)
+
+:::: {.columns}
+
+::: {.column width=50%}
+![](images/chessboard-repo.png){width=80%}
+:::
+
+::: {.column width=50%}
+![](images/chessboard-paper.png){width=60%}
+:::
+
+::::
+
+
+:::: {.columns}
+
+::: {.column width=50%}
+::: {.small}
+<https://github.com/frbcesab/chessboard/>
+:::
+:::
+
+::: {.column width=50%}
+::: {.small}
+<https://joss.theoj.org/papers/10.21105/joss.05753>
+:::
+:::
+
+::::
+
+
+# Thanks!
