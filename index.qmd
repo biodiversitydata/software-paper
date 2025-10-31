@@ -18,9 +18,14 @@ engine: knitr
 #| child: "sections/title-slide.qmd"
 ```
 
+<!-- Insert section 'Data lifecycle' slides -->
+
+```{r}
+#| child: "sections/data-lifecycle.qmd"
+```
+
 <!-- Insert section 'Main slides' -->
 
 ```{r}
 #| child: "sections/main.qmd"
 ```
-
