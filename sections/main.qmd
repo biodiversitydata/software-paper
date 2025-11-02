@@ -30,28 +30,6 @@ This presentation is strongly inspired by the chapter [**_Software papers_**](ht
 :::
 ::::
 
-## What is a software paper?
-
-:::: {.columns}
-
-::: {.column width=50%}
-- Share a new piece of software with the research community
-- Close to traditional method papers
-- Shorter than traditional articles (between 2 and 10 pages)
-- Focus on describing the software and its use
-
-<br/>
-
-**_But wait! What does this have to do with the data?_**
-:::
-
-::: {.column width=5%}
-:::
-
-::: {.column width=45%}
-:::
-::::
-
 
 ## What is a software paper?
 
@@ -63,9 +41,6 @@ This presentation is strongly inspired by the chapter [**_Software papers_**](ht
 - Shorter than traditional articles (between 2 and 10 pages)
 - Focus on describing the software and its use
 
-<br/>
-
-**_But wait! What does this have to do with the data?_**
 :::
 
 ::: {.column width=5%}
@@ -92,9 +67,6 @@ This presentation is strongly inspired by the chapter [**_Software papers_**](ht
 - Shorter than traditional articles (between 2 and 10 pages)
 - Focus on describing the software and its use
 
-<br/>
-
-**_But wait! What does this have to do with the data?_**
 :::
 
 ::: {.column width=5%}
@@ -121,9 +93,6 @@ This presentation is strongly inspired by the chapter [**_Software papers_**](ht
 - Shorter than traditional articles (between 2 and 10 pages)
 - Focus on describing the software and its use
 
-<br/>
-
-**_But wait! What does this have to do with the data?_**
 :::
 
 ::: {.column width=5%}
