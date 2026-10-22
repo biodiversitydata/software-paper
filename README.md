@@ -82,7 +82,7 @@ To understand the file organisation of this repository, please read this [Wiki](
 
 ## Citation
 
-Casajus N (2025) Writing a software paper. Online presentation available at <https://github.com/biodiversitydata/software-paper/>.
+Casajus N (2026) _Writing a software paper_. Online presentation available at <https://github.com/biodiversitydata/software-paper/>.
 
 
 ## Contributing
