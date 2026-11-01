@@ -118,6 +118,25 @@ h2 {
   padding-bottom: 20px;
 }
 
+h2 {
+  color: #075a80 !important;
+  border-bottom: 1px solid rgba(7, 90, 128, 0.12);
+  padding-bottom: 0.25em;
+  margin-bottom: 1em !important;
+}
+
+p strong:not(span strong),
+li strong:not(span strong) {
+  color: #075a80 !important;
+  font-weight: 700 !important;
+}
+
+p span strong,
+li span strong {
+  color: inherit !important;
+  font-weight: 700 !important;
+}
+
 p, li, a {
  font-weight: 300; 
 }
@@ -177,4 +196,16 @@ blockquote p::before {
 
 .small {
   font-size: 0.8em;
+}
+
+.boxed {
+  padding: 0.75em !important;
+  margin: 0 15em !important;
+  border: 2px solid #075a80;
+  background-color: #075a80;
+  border-radius: 10px;
+}
+
+.boxed p strong {
+  color: white !important;
 }

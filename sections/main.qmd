@@ -1,192 +1,419 @@
-## Acknowledgments
+## Software as a research output
 
-This presentation is strongly inspired by the chapter [**_Software papers_**](https://book.the-turing-way.org/communication/dif-articles/software.html) of the online book [**The Turing Way**](https://book.the-turing-way.org/).
+- Research projects produce more than scientific publications and datasets
 
-<br/>
-
-![](images/logo-turing-way.png){width=20% fig-align='center'}
-
-<br/>
-
-> The Turing Way Community (2021) _The Turing Way: A handbook for reproducible, ethical and collaborative research_. Zenodo. <https://doi.org/10.5281/zenodo.3233853>.
-
-
-
-## What is a software paper?
+. . .
 
 :::: {.columns}
 
-::: {.column width=50%}
-- Share a new piece of software with the research community
-- Close to traditional method papers
-- Shorter than traditional articles (between 2 and 10 pages)
-- Focus on describing the software and its use
+::: {.column}
+<br>
+
+- Software plays a central role in:
+
+  - Data collection and acquisition
+  - Data cleaning and transformation
+  - Data analysis and visualisation
+  - Modelling and simulation
 :::
 
-::: {.column width=5%}
-:::
-
-::: {.column width=45%}
+::: {.column}
+![](images/data-lifecycle-2_3_6.png){width=50% fig-align='right'}
 :::
 ::::
 
 
-## What is a software paper?
+. . .
+
+
+{{< fa triangle-exclamation >}}&nbsp; However, software is often 
+**less documented**, **shared** and **recognised** than data or 
+publications
+
+<br>
+
+. . .
+
+::: {.boxed .center}
+**Software is a valuable research output<br>in its own right**
+:::
+
+## Software and the FAIR-CARE Principles
 
 :::: {.columns}
 
-::: {.column width=50%}
-- Share a new piece of software with the research community
-- Close to traditional method papers
-- Shorter than traditional articles (between 2 and 10 pages)
-- Focus on describing the software and its use
+::: {.column width=40%}
+
+<br><br><br><br><br>
+
+![](images/FAIRCARE.png){width=100% fig-align='center'}
 
 :::
 
-::: {.column width=5%}
+::: {.column width=10%}
 :::
 
-::: {.column width=45%}
-![](images/pipeline-1.png)
+::: {.column width=40%}
+![Source: <https://fair-software.nl/>](images/five-reco.png){width=90% fig-align='center'}
 
-<br/>
+<br>
 
-{{< fa circle-right >}} &nbsp;Software paper about **your pipeline**
+![Source: <https://doi.org/10.1038/s41597-022-01710-x>](images/fair4rs.png){width=90% fig-align='center'}
+
 :::
 
 ::::
 
+## Before publishing a Software paper
 
-## What is a software paper?
-
-:::: {.columns}
-
-::: {.column width=50%}
-- Share a new piece of software with the research community
-- Close to traditional method papers
-- Shorter than traditional articles (between 2 and 10 pages)
-- Focus on describing the software and its use
-
-:::
-
-::: {.column width=5%}
-:::
-
-::: {.column width=45%}
-![](images/pipeline-2.png)
-
-<br/>
-
-{{< fa circle-right >}} &nbsp;Software paper about **a tool to access data**
-:::
-
-::::
+|                           | Dimension                 | What should be in place?           | Examples / Tools           |
+|:----:|:--------------|:--------------------------|:-------------------------|
+| {{< fa code-branch >}}    | **Version control**       | Commit history, releases           | Git                        |
+| {{< fa brands github >}}  | **Code source**           | Public repository                  | GitHub, GitLab, Codeberg   |
+| {{< fa warehouse >}}      | **Archiving**             | Long-term preservation             | Zenodo, Software Heritage  |
+| {{< fa tag >}}            | **Identification**        | Persistent & unique identifier     | DOI, SWHID                 |
+| {{< fa book >}}           | **Documentation**         | Installation, documentation, usage | README, Website, Vignettes |
+| {{< fa award >}}          | **License**               | Explicit open-source licence       | GPL, MIT, Apache 2.0       |
+| {{< fa users >}}          | **Authorship**            | Maintainer, contributors & authors | ORCID, ROR, roles          |
+| {{< fa quote-left >}}     | **Citation metadata**     | Structured citation information    | CITATION.cff, Codemeta     |
+| {{< fa square-check >}}   | **Quality**               | Unit tests, CI/CD                  | testthat, GitHub Actions   |
+| {{< fa handshake >}}      | **Community**             | Contribution guidelines, code of conduct | CONTRIBUTING.md, CODE_OF_CONDUCT.md |
 
 
-## What is a software paper?
+## What is a Software Paper?
 
-:::: {.columns}
+- A scientific **peer-reviewed** publication whose primary focus is a **software application** or tool
 
-::: {.column width=50%}
-- Share a new piece of software with the research community
-- Close to traditional method papers
-- Shorter than traditional articles (between 2 and 10 pages)
-- Focus on describing the software and its use
+. . .
 
-:::
+<br>
 
-::: {.column width=5%}
-:::
+- It describes:
 
-::: {.column width=45%}
-![](images/pipeline-3.png)
+  - the **scientific context** and the problem addressed
+  - the purpose and main **functionalities** of the software
+  - its architecture and **technical design**
+  - the **methods** and **algorithms implemented**
+  - installation **requirements** and dependencies
 
-<br/>
 
-{{< fa circle-right >}} &nbsp;Software paper about **a tool to add new data**
-:::
+## Why publish a Software paper?
 
-::::
-
-## Software papers - Examples
+<br><br><br><br>
 
 :::: {.columns}
 
-::: {.column width=50%}
-[![](images/mee-screenshot-1.png)](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.13910)
-:::
+::: {.column .fragment .center width=32%}
 
-::: {.column width=50%}
-[![](images/mee-screenshot-6.png)](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.13868)
-:::
+[{{< fa eye size=2xl >}}]{style="color: #4A8C78;"}
+<br>
 
-::::
+[**Visibility**]{style="color: #4A8C78 !important;"}
 
-:::: {.columns}
-
-::: {.column width=50%}
-[![](images/mee-screenshot-3.png)](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.14213)
-:::
-
-::: {.column width=50%}
-[![](images/mee-screenshot-4.png)](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.13779)
-:::
-
-::::
-
-
-## Software paper - Why?
-
-- Advertise your code to an interested audience
-- Increase the visibility of your code and community
-- Improve your software through peer-review
-
-
-
-## In which journals?
-
-- Methods in Ecology and Evolution &nbsp;&nbsp;[{{< fa up-right-from-square size=xs >}}](https://besjournals.onlinelibrary.wiley.com/journal/2041210x)
-- Journal of Open Source Software (JOSS) &nbsp;&nbsp;[{{< fa up-right-from-square size=xs >}}](https://joss.theoj.org/)
-- Journal of Open Research Software (JORS) &nbsp;&nbsp;[{{< fa up-right-from-square size=xs >}}](https://openresearchsoftware.metajnl.com/)
-- BMC Bioinformatics &nbsp;&nbsp;[{{< fa up-right-from-square size=xs >}}](https://bmcbioinformatics.biomedcentral.com/)
-- PeerJ &nbsp;&nbsp;[{{< fa up-right-from-square size=xs >}}](https://peerj.com/about/publications/#PeerJ)
-- PLOS Computational Biology: Software &nbsp;&nbsp;[{{< fa up-right-from-square size=xs >}}](https://collections.plos.org/collection/software/)
-- PLOS ONE &nbsp;&nbsp;[{{< fa up-right-from-square size=xs >}}](https://journals.plos.org/plosone/)
-- ...
-
-
-## Zoom on JOSS
-
-Feedback on publishing in **Journal of Open Source Software** (JOSS)
-
-:::: {.columns}
-
-::: {.column width=50%}
-![](images/chessboard-repo.png){width=80%}
-:::
-
-::: {.column width=50%}
-![](images/chessboard-paper.png){width=60%}
-:::
-
-::::
-
-
-:::: {.columns}
-
-::: {.column width=50%}
 ::: {.small}
-<https://github.com/frbcesab/chessboard/>
+Make research software discoverable<br>by the scientific community
 :::
 :::
 
-::: {.column width=50%}
+::: {.column .fragment .center width=32%}
+
+[{{< fa award size=2xl >}}]{style="color: #C18A45;"}
+<br>
+
+[**Recognition**]{style="color: #C18A45;"}
+
 ::: {.small}
-<https://joss.theoj.org/papers/10.21105/joss.05753>
+Give credit to software developers<br>and contributors
+:::
+
+:::
+
+::: {.column .fragment .center width=32%}
+
+[{{< fa link size=2xl >}}]{style="color: #075a80;"}
+<br>
+
+[**Traceability**]{style="color: #075a80;"}
+
+::: {.small}
+Establish a link between software<br>and scientific publications
+:::
+:::
+
+::::
+
+<br>
+
+:::: {.columns}
+
+::: {.column .center width=16%}
+:::
+
+::: {.column .fragment .center width=32%}
+
+[{{< fa rotate size=2xl >}}]{style="color: #795F8D;"}
+<br>
+
+[**Reproducibility**]{style="color: #795F8D;"}
+
+::: {.small}
+Document methods, workflows and<br>execution conditions
+:::
+
+:::
+
+::: {.column .fragment .center width=32%}
+
+[{{< fa recycle size=2xl >}}]{style="color: #C76D62;"}
+<br>
+
+[**Reusability**]{style="color: #C76D62;"}
+
+::: {.small}
+Enable other teams to understand,<br>test and adapt the software
+:::
+:::
+
+::: {.column .center width=16%}
+:::
+
+::::
+
+
+## Software paper, Data paper and co
+
+<br><br><br><br>
+
+:::: {.columns}
+
+::: {.column .center width=25%}
+
+[{{< fa flask size=2xl >}}]{style="color: #C76D62;"}
+<br>
+
+[**Research article**]{style="color: #C76D62;"}
+
+::: {.small}
+Why was the research conducted,<br>and what were the findings?
+:::
+:::
+
+::: {.column .center width=25%}
+
+[{{< fa table size=2xl >}}]{style="color: #4A8C78 !important;"}
+<br>
+
+[**Data paper**]{style="color: #4A8C78 !important;"}
+
+::: {.small}
+What data were produced, and how<br>are they structured and documented?
+:::
+
+:::
+
+::: {.column .center width=25%}
+[{{< fa square-root-variable size=2xl >}}]{style="color: #075a80 !important;"}
+<br>
+
+[**Methods paper**]{style="color: #075a80 !important;"}
+
+::: {.small}
+What method was developed, why was it designed, and how can it be applied?
+:::
+:::
+
+::: {.column .center width=25%}
+[{{< fa code size=2xl >}}]{style="color: #C18A45;"}
+<br>
+
+[**Software paper**]{style="color: #C18A45;"}
+
+::: {.small}
+What software was developed, how<br>does it work, and how can it be reused?
+:::
+:::
+
+::::
+
+. . .
+
+<br><br>
+
+::: {.boxed .center}
+**Same research ecosystem<br>Complementary outputs**
+:::
+
+
+## Example w/ the FORCIS project
+
+{{< fa circle-arrow-right >}}&nbsp; A FRB-CESAB research project on **Foraminifera response to climatic stress**
+ &nbsp;&nbsp;[{{< fa up-right-from-square size=xs >}}](https://www.fondationbiodiversite.fr/en/the-frb-in-action/programs-and-projects/le-cesab/forcis/)
+
+<br><br><br>
+
+:::: {.columns}
+
+::: {.column .center width=32%}
+[{{< fa flask size=2xl >}}]{style="color: #C76D62;"}
+<br>
+
+[**7 x Research articles**]{style="color: #C76D62;"}
+
+::: {.small}
+Published in various journals<br>(Science, Nature, J. of Biogeography, etc.)
+:::
+:::
+
+::: {.column .center width=32%}
+[{{< fa database size=2xl >}}]{style="color: #795F8D;"}
+<br>
+
+[**1 x Database**]{style="color: #795F8D;"}
+
+::: {.small}
+Released as a collection of CSV files<br>and archived on **Zenodo**
+&nbsp;[{{< fa up-right-from-square size=xs >}}](https://zenodo.org/records/12724286)
+:::
+:::
+
+::: {.column .center width=32%}
+[{{< fa table size=2xl >}}]{style="color: #4A8C78;"}
+<br>
+
+[**1 x Data paper**]{style="color: #4A8C78;"}
+
+::: {.small}
+Peer-reviewed and published in<br>**Scientific Data**
+&nbsp;[{{< fa up-right-from-square size=xs >}}](https://doi.org/10.1038/s41597-023-02264-2)
 :::
 :::
 
 ::::
 
 
-# Thanks!
+<br>
+
+:::: {.columns}
+
+::: {.column .center width=16%}
+:::
+
+::: {.column .center width=32%}
+[{{< fa cube size=2xl >}}]{style="color: #075a80;"}
+<br>
+
+[**1 x R Package**]{style="color: #075a80;"}
+
+::: {.small}
+Peer-reviewed by **rOpenSci**
+&nbsp;[{{< fa up-right-from-square size=xs >}}](https://github.com/ropensci/software-review/issues/660)<br>
+and archived on **CRAN**
+&nbsp;[{{< fa up-right-from-square size=xs >}}](https://cran.r-project.org/package=forcis)
+:::
+:::
+
+::: {.column .center width=32%}
+[{{< fa code size=2xl >}}]{style="color: #C18A45;"}
+<br>
+
+[**1 x Software paper**]{style="color: #C18A45;"}
+
+::: {.small}
+Peer-reviewed and published in<br>**Journal of Open Source Software**
+&nbsp;[{{< fa up-right-from-square size=xs >}}](https://joss.theoj.org/papers/10.21105/joss.09217)
+:::
+:::
+
+::: {.column .center width=16%}
+:::
+
+::::
+
+## Where can you publish a Software paper?
+
+:::: {.columns}
+
+::: {.column}
+- **Journals dedicated to research software**
+
+  - Journal of Open Source Software &nbsp;&nbsp;[{{< fa up-right-from-square size=xs >}}](https://joss.theoj.org/)
+  - Journal of Open Research Software &nbsp;&nbsp;[{{< fa up-right-from-square size=xs >}}](https://openresearchsoftware.metajnl.com/)
+  - SoftwareX &nbsp;&nbsp;[{{< fa up-right-from-square size=xs >}}](https://www.sciencedirect.com/journal/softwarex)
+
+:::
+
+::: {.column}
+- **Ecology-focused journals**
+
+  - Methods in Ecology and Evolution &nbsp;&nbsp;[{{< fa up-right-from-square size=xs >}}](https://besjournals.onlinelibrary.wiley.com/journal/2041210x)
+  - Ecology and Evolution &nbsp;&nbsp;[{{< fa up-right-from-square size=xs >}}](https://onlinelibrary.wiley.com/journal/20457758)
+  - Ecography &nbsp;&nbsp;[{{< fa up-right-from-square size=xs >}}](https://nsojournals.onlinelibrary.wiley.com/journal/16000587)
+  - PLOS Ecosystems &nbsp;&nbsp;[{{< fa up-right-from-square size=xs >}}](https://journals.plos.org/ecosystems/)
+:::
+::::
+
+<br>
+
+:::: {.columns}
+
+::: {.column}
+- **Broader journals accepting software papers**
+
+  - BMC Bioinformatics &nbsp;&nbsp;[{{< fa up-right-from-square size=xs >}}](https://bmcbioinformatics.biomedcentral.com/)
+  - PLOS Computational Biology &nbsp;&nbsp;[{{< fa up-right-from-square size=xs >}}](https://collections.plos.org/collection/software/)
+  - PLOS ONE &nbsp;&nbsp;[{{< fa up-right-from-square size=xs >}}](https://journals.plos.org/plosone/)
+  - PeerJ &nbsp;&nbsp;[{{< fa up-right-from-square size=xs >}}](https://peerj.com/about/publications/#PeerJ)
+:::
+::: {.column}
+:::
+::::
+
+
+## Take home message
+
+<br><br><br><br><br><br><br>
+
+::: {.boxed .center}
+**Publishing research software helps preserving an essential part of the scientific process**
+:::
+
+## Resources
+
+:::: {.columns}
+
+::: {.column}
+
+- **Tools & resources**
+
+  - Choose a license &nbsp;[{{< fa up-right-from-square size=xs >}}](https://choosealicense.com/)
+  - Zenodo &nbsp;[{{< fa up-right-from-square size=xs >}}](https://zenodo.org/)
+  - Software Heritage &nbsp;[{{< fa up-right-from-square size=xs >}}](https://www.softwareheritage.org/)
+  - Citation File Format (CFF) &nbsp;[{{< fa up-right-from-square size=xs >}}](https://citation-file-format.github.io/)
+  - The CodeMeta Project &nbsp;[{{< fa up-right-from-square size=xs >}}](https://codemeta.github.io/)
+  - Five recommendations for FAIR software &nbsp;[{{< fa up-right-from-square size=xs >}}](https://fair-software.nl/)
+
+:::
+
+::: {.column}
+
+- **Writing Softpaper papers**
+
+  - JOSS guidelines &nbsp;[{{< fa up-right-from-square size=xs >}}](https://joss.readthedocs.io/en/latest/submitting.html)
+  - MEE guidelines &nbsp;[{{< fa up-right-from-square size=xs >}}](https://besjournals.onlinelibrary.wiley.com/hub/journal/2041210X/author-guidelines)
+  - Software papers in _The Turing Way_ &nbsp;[{{< fa up-right-from-square size=xs >}}](https://book.the-turing-way.org/communication/dif-articles/software.html)
+:::
+
+<br>
+
+:::: {.columns}
+
+::: {.column width=80%}
+- **Selected papers**
+
+  - Introducing the FAIR Principles for research software &nbsp;[{{< fa up-right-from-square size=xs >}}](https://www.nature.com/articles/s41597-022-01710-x)
+  - CODE beyond FAIR: A roadmap for reusable research software &nbsp;[{{< fa up-right-from-square size=xs >}}](https://www.nature.com/articles/s41597-026-06705-6)
+:::
+
+::: {.column width=20%}
+:::
+::::
