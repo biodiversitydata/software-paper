@@ -6,7 +6,7 @@
   <br>
   Software paper
   <br>
-  Promoting the tool you developed to access your data
+  Making research software visible, citable and reusable
   <br>
 </h1>
 
