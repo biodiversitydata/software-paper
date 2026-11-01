@@ -396,7 +396,7 @@ Peer-reviewed and published in<br>**Journal of Open Source Software**
 
 ::: {.column}
 
-- **Writing Softpaper papers**
+- **Writing Software papers**
 
   - JOSS guidelines &nbsp;[{{< fa up-right-from-square size=xs >}}](https://joss.readthedocs.io/en/latest/submitting.html)
   - MEE guidelines &nbsp;[{{< fa up-right-from-square size=xs >}}](https://besjournals.onlinelibrary.wiley.com/hub/journal/2041210X/author-guidelines)
